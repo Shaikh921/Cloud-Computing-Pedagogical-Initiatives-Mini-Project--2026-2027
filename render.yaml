@@ -1,0 +1,30 @@
+services:
+  # All-in-One Service: Express API + Built React 19 Frontend
+  - type: web
+    name: agentic-ai-ticket-assistant
+    runtime: node
+    plan: free
+    rootDir: Ai_Ticket_Assistant
+    buildCommand: npm install && cd frontend && npm install && npm run build
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: INNGEST_EVENT_KEY
+        sync: false
+      - key: INNGEST_SIGNING_KEY
+        sync: false
+      - key: MAILTRAP_SMTP_HOST
+        value: sandbox.smtp.mailtrap.io
+      - key: MAILTRAP_SMTP_PORT
+        value: "2525"
+      - key: MAILTRAP_SMTP_USER
+        sync: false
+      - key: MAILTRAP_SMTP_PASS
+        sync: false

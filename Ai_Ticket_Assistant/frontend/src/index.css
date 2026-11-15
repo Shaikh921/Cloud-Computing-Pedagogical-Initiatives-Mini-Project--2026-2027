@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root, [data-theme="emerald"] {
+  --theme-primary: #10b981;
+  --theme-secondary: #059669;
+  --theme-border: rgba(16, 185, 129, 0.25);
+  --theme-bg: #090d16;
+  --theme-gradient: linear-gradient(135deg, #10b981, #059669);
+  --theme-text-accent: #34d399;
+}
+
+[data-theme="amethyst"] {
+  --theme-primary: #8b5cf6;
+  --theme-secondary: #7c3aed;
+  --theme-border: rgba(139, 92, 246, 0.25);
+  --theme-bg: #0c0a17;
+  --theme-gradient: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  --theme-text-accent: #a78bfa;
+}
+
+[data-theme="amber"] {
+  --theme-primary: #f59e0b;
+  --theme-secondary: #d97706;
+  --theme-border: rgba(245, 158, 11, 0.25);
+  --theme-bg: #0f0d09;
+  --theme-gradient: linear-gradient(135deg, #f59e0b, #d97706);
+  --theme-text-accent: #fbbf24;
+}
+
+[data-theme="cyan"] {
+  --theme-primary: #0284c7;
+  --theme-secondary: #0369a1;
+  --theme-border: rgba(2, 132, 199, 0.25);
+  --theme-bg: #080e18;
+  --theme-gradient: linear-gradient(135deg, #0284c7, #0369a1);
+  --theme-text-accent: #38bdf8;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--theme-bg);
+  color: #f1f5f9;
+  font-family: var(--font-sans);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+/* Subtle, refined dot grid pattern */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Modern Card Panels (Linear Style) */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-hover {
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.glass-panel-hover:hover {
+  background: rgba(30, 41, 59, 0.6);
+  border-color: rgba(255, 255, 255, 0.16);
+  transform: translateY(-1px);
+}
+
+.glass-input {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.glass-input:focus {
+  background: rgba(15, 23, 42, 0.95);
+  border-color: var(--theme-primary);
+  outline: none;
+  box-shadow: 0 0 0 1px var(--theme-primary);
+}
+
+/* Primary Button (Refined SaaS Gradient) */
+.btn-theme-primary {
+  background: var(--theme-gradient);
+  color: #ffffff;
+  font-weight: 500;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn-theme-primary:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.text-theme-accent {
+  color: var(--theme-text-accent);
+}
+
+.border-theme {
+  border-color: var(--theme-border);
+}
+
+/* Clean, modern scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
