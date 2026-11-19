@@ -193,3 +193,16 @@ npm run dev:frontend
 
 Open **`http://localhost:3000`** in any modern web browser.
 
+---
+
+## 👥 Project Team & Mentorship
+
+**Mahatma Gandhi Mission's College of Engineering, Nanded**  
+**Department of Computer Science & Engineering**  
+**Class**: B.Tech [Btech-A]
+
+| 👨‍💻 Created By | 👩‍🏫 Guided By |
+| :--- | :--- |
+| • **Rohit Suryawanshi**<br>• **Syed Maroof**<br>• **Irafan Shaikh**<br>• **Om Wattamwar**<br>• **Pawan Wadje**<br>• **Avinash Wared** | **Dr. Shital Y. Gaikwad** |
+
+

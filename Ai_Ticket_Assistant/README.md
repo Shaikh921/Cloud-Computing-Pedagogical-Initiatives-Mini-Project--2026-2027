@@ -1,10 +1,24 @@
 # 🤖 AgenticAI — Intelligent Support Ticket Assistant
+### Autonomous AI Triage & Load-Balanced Ticket Routing
+
+**Mahatma Gandhi Mission's College of Engineering, Nanded**  
+*Department of Computer Science & Engineering* | *Class: B.Tech [Btech-A]*
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
 [![React Version](https://img.shields.io/badge/react-19.3.1-blue.svg)](https://react.dev/)
 [![Inngest SDK](https://img.shields.io/badge/inngest-v4.26-purple.svg)](https://www.inngest.com/)
 [![Tailwind CSS](https://img.shields.io/badge/tailwindcss-v4.3-38bdf8.svg)](https://tailwindcss.com/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
+
+---
+
+### 🎓 Project Team & Guide
+
+| 👨‍💻 Created By | 👩‍🏫 Guided By |
+| :--- | :--- |
+| • **Rohit Suryawanshi**<br>• **Syed Maroof**<br>• **Irafan Shaikh**<br>• **Om Wattamwar**<br>• **Pawan Wadje**<br>• **Avinash Wared** | **Dr. Shital Y. Gaikwad** |
+
+---
 
 > **AgenticAI Support Assistant** is a production-grade, event-driven technical support platform that transforms traditional static ticket logging into an **autonomous agentic triage and intelligent routing pipeline**. Built with **React 19**, **Node.js/Express**, **Inngest**, **Google Gemini AI**, and **MongoDB Atlas**, it automates root-cause diagnosis, priority estimation, moderator skill-matching, and load-balanced ticket dispatching.
 
@@ -27,6 +41,7 @@
 13. [Installation & Local Setup](#-installation--local-setup)
 14. [Pre-Seeded Demo Personas](#-pre-seeded-demo-personas)
 15. [Directory Structure](#-directory-structure)
+16. [Project Team & Mentorship](#-project-team--mentorship)
 
 ---
 
@@ -690,6 +705,18 @@ Ai_Ticket_Assistant/
 ├── seed.js                       # Comprehensive database seeder script
 └── README.md                     # Complete System Specification
 ```
+
+---
+
+## 👥 Project Team & Mentorship
+
+**Mahatma Gandhi Mission's College of Engineering, Nanded**  
+**Department of Computer Science & Engineering**  
+**Class**: B.Tech [Btech-A]
+
+| 👨‍💻 Created By | 👩‍🏫 Guided By |
+| :--- | :--- |
+| • **Rohit Suryawanshi**<br>• **Syed Maroof**<br>• **Irafan Shaikh**<br>• **Om Wattamwar**<br>• **Pawan Wadje**<br>• **Avinash Wared** | **Dr. Shital Y. Gaikwad** |
 
 ---
 
