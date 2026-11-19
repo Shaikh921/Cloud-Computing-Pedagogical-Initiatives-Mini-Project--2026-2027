@@ -16,7 +16,7 @@
 
 | 👨‍💻 Created By | 👩‍🏫 Guided By |
 | :--- | :--- |
-| • **Rohit Suryawanshi**<br>• **Syed Maroof**<br>• **Irafan Shaikh**<br>• **Om Wattamwar**<br>• **Pawan Wadje**<br>• **Avinash Wared** | **Dr. Shital Y. Gaikwad** |
+| • **Rohit Suryawanshi**<br>• **Syed Maroof**<br>• **Irafan Shaikh**<br>• **Om Wattamwar**<br>• **Pawan Wadje**<br>• **Avinash Wared**<br>• **Mohammed Shahid Amaan Qureshi** | **Dr. Shital Y. Gaikwad** |
 
 ---
 
